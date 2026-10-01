@@ -2,14 +2,13 @@
 #include <string>
 using namespace std;
 
-#define MAX 5
+#define MAX 20
 
 int main() {
     system ("cls");
-    // Program membuat stack menggunakan array dengan menggunakan inputan sebuah kata
 
-    char stack[MAX]; // Array untuk menyimpan karakter
-    int top = -1; // Inisialisasi top stack
+    char stack[MAX];
+    int top = -1; 
     string kata;
 
     cout << "Masukkan sebuah kata : ";
@@ -17,7 +16,6 @@ int main() {
 
     if (kata.length() > MAX) {
         cout << "Kata maksimal " << MAX << " karakter." << endl;
-        return 0;
     }
 
     // Push
