@@ -32,7 +32,7 @@ int main() {
     cout << "Size : " << top+1 << endl; // 2+1 = 3
 
     // Empty
-    if (top == 1) {
+    if (top == -1) {
         cout << "Stack Kosong" << endl;
     } else {
         cout << "Stack Tidak Kosong" << endl;

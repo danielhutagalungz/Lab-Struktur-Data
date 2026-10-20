@@ -19,7 +19,7 @@ int main() {
     root->kiri = new Node();
     root->kiri->data = 27;
     root->kiri->kiri = NULL;
-    root->kiri->kanan = NULL;
+    root->kiri->kanan = NULL;   
     
     // Mmebuat anak kanan
     root->kanan = new Node();
