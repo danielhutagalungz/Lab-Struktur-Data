@@ -8,7 +8,7 @@ const int TABLE_SIZE = 10;
 class HashTable {
 private:
     vector<pair<int, string>> table;
-    vector<int> status; // 0 = kosong, 1 = terisi, 2 = dihapus
+    vector<int> status; 
 
     int hash1(int key) {
         return key % TABLE_SIZE;
